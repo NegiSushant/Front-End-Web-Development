@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reg_style.css">
+  <title>MyRegistration Form</title>
+</head>
+<body>
+  <div class="myform">
+    <h2>Registration Form</h2>  
+    <form id="regis">
+      <abbr title="First Name">
+        <label for="fname">First Name
+        </abbr>
+      </label> <br>
+      <input type="text" name="fname" id="fname" placeholder="Enter your first name"> <br>
+      <label for="lname">Last Name</label> <br>
+      <input type="text" name="lname" id="lname" placeholder="Enter your last name">  <br>
+      <label for="dob">Date of Birth</label> <br>
+      <input type="date" name="dob" id="dob"> <br>
+      <label for="mail">Email Id</label> <br>
+      <input type="email" name="mail" id="mail" placeholder="Enter Email Id" required> <br>
+      <label for="Phone Number">Phone Number</label> <br>
+      <input type="number" name="phone" id="phone" placeholder="Enter Phone Number" required> (In 10 Digits) <br>
+      <label for="gender">Gender : </label>
+      <input type="radio" name="gender" value="Male"> Male
+      <input type="radio" name="gender" value="Male"> Female <br>
+      <label for="addr">Address</label> <br>
+      <textarea name="" id="addr" cols="40" rows="5" placeholder="Enter Address"></textarea> <br>
+      <label for="pl">Programming Languages Known</label> <br>
+      <input type="checkbox" name="" id="Java">Java 
+      <input type="checkbox" name="" id="c++">C++ 
+      <input type="checkbox" name="" id="c">C 
+      <input type="checkbox" name="" id="py">Python <br> <br>
+      <label for="courses" style="color:black;">Course : </label>
+      <select  id="courses">
+        <option value="Courses" disabled selected>-------Courses-------</option>
+        <option value="Java">Java</option>
+        <option value="C++">C++</option>
+        <option value="python">Python</option>
+        <option value="sql">SQL</option>
+        <option value="AI">AI</option>
+        <option value="App dev">App Development</option>
+      </select>
+      <br> 
+    <input type="submit" value="SUBMIT">
+      
+    </form>
+  </div>
+</body>
+</html>
